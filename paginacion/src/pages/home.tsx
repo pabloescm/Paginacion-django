@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Practico } from '../models/practico';
 import "../css/home.css"
 
+
 const Home = () => {
   const [practicos, setPracticos] = useState<Practico[]>([]);
   const [nextPage, setNextPage] = useState<string | null>(null);
